@@ -17,4 +17,6 @@ jobs:
                 distribution: 'temurin'
             
             - name: Compilar y ejecutar pruebas
-              run: mvn test
+              run: |
+                cd ejmploJava
+                mvn test
